@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace PracticeCode
 {
@@ -34,7 +35,7 @@ namespace PracticeCode
             One myOne = new One();
             Two myTwo = new Two();
 
-            Console.WriteLine("5 + 2 = " + myOne.Add() + "\n" + "5 - 2 = " + myTwo.Subtract() 
+            WriteLine("5 + 2 = " + myOne.Add() + "\n" + "5 - 2 = " + myTwo.Subtract() 
                 + "\n" + "5 * 2 = " + myTwo.Multiply());
         }
     }
